@@ -8,8 +8,8 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './Heade
 const Header = () =>  (
   <Container>
     <Div1>
-      <Link href="/"><a style={{display:"flex", alignItems:"center", color:"white", marginBottom:"20px"}}>
-        <DiCssdeck size="3em"/><Span>Portofolio</Span></a></Link>
+      <Link href="/"><a style={{display:"flex", alignItems:"center", color:"white", marginBottom:"20px", marginLeft:"15px"}}>
+        <DiCssdeck size="3em"/><Span>Marco Bejarano Oseguera</Span></a></Link>
     </Div1>
     <Div2>
       <li>
@@ -32,7 +32,7 @@ const Header = () =>  (
       <SocialIcons href="https://github.com/bejarano03">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://linkedin.com">
+      <SocialIcons href="https://www.linkedin.com/in/marcobejarano/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
       <SocialIcons href="https://instagram.com">

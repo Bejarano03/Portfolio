@@ -12,9 +12,9 @@ const Hero = () => (
         My Personal Portofolio
       </SectionTitle>
       <SectionText>
-        The purpose of my portofolio is to help your business grow.
+        The purpose of my portofolio is to showcase my best projects and share with you my skills.
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
+      <Button onClick={() => window.location = 'https://google.com'}>Resume</Button>
     </LeftSection>
 
   </Section>
