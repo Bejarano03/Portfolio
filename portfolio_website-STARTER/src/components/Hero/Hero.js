@@ -4,6 +4,7 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
+
 const Hero = () => (
   <Section row nopadding>
     <LeftSection>
@@ -14,7 +15,7 @@ const Hero = () => (
       <SectionText>
         The purpose of my portofolio is to showcase my best projects and share with you my skills.
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>Resume</Button>
+      <Button onClick={() => window.location = 'http://google.com'}>Resume</Button>
     </LeftSection>
 
   </Section>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiGithub } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -33,12 +33,12 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size="3rem"/>
+        <DiGithub size="3rem"/>
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools with Figma
+            version control
           </ListParagraph>
         </ListContainer>
       </ListItem>
